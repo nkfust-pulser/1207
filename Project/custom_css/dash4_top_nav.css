@@ -1,0 +1,80 @@
+ @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+ .navbar{
+ 	margin-bottom: 0;
+ 	font-family: 'Poppins', sans-serif;
+ }
+ .navbar-brand{
+ 	position: relative;
+ 	margin: 0;
+ }
+ i.fa.fa-caret-square-o-down{
+ 	padding: 0;
+ 	color: #000;
+ 	margin: 0;
+ }
+ .navbar-default .navbar-brand{
+ 	color: #4b4c4c;
+ }
+ .navbar-default .navbar-brand:hover, 
+ .navbar-default .navbar-brand:focus{
+ 	background-color: transparent;
+ 	color: #4b4c4c;
+ }
+ .navbar-header a i{
+ 	padding-right: 8px;
+ }
+ .navbar-header a label{
+ 	font-size: 23px;
+ 	font-weight: normal;
+ }
+ .navbar-header a i{
+ 	font-size: 22.5px;
+ }
+ .navbar-default .navbar-nav li a {
+ 	font-size: 19px;
+ 	color: #4b4c4c;
+ }
+ .navbar-default .navbar-nav li a i{
+ 	font-size: 17px;
+ 	margin: 0;
+ 	padding: 0 6px 0 0;
+ }
+ i#sidebarCollapse{
+ 	padding: 0;
+ }
+ .navbar-default .navbar-nav #sign_out_i{
+ 	padding: 0;
+ }
+ .navbar-default .navbar-nav > li > a:hover{
+ 	background-color: #e0e2e5;
+ 	color: #000;
+ }
+
+ .navbar-nav{
+ 	margin-bottom: 0;
+ 	margin-top: 0;
+ 	color: #000;
+ }
+ .navbar-nav li{
+ 	line-height: 50px;
+ }
+ div#navbar-container.container-fluid{
+ 	padding-right: 0px;
+ }
+ .navbar-default .navbar-nav > li > a > label:hover{
+ 	background-color: #848484;
+
+ }
+ @media only screen and (max-width : 959px){
+ 	button#theButton{
+ 		margin: 5px 7px 5px 0;
+ 	}
+ }
+ @media only screen and (max-width : 768px){
+ 	.navbar-brand#homepage{
+ 		padding-left: 0;
+ 	}
+ 	div#navbar-container.container-fluid{
+ 		padding-right: 17px;!importnat
+ 	}
+ }

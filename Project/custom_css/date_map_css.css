@@ -1,0 +1,94 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body{
+    font-family: Microsoft JhengHei, sans-serif;
+}
+.panel{
+    margin: 0;
+}
+
+.panel-heading .btn{
+    color: #fff;
+    margin: 0;
+    border: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
+#map_label{
+    vertical-align: middle;
+
+}
+.panel-heading i{
+    color: #000;
+    vertical-align: middle;
+
+}
+.chooser_date{
+    padding-bottom:15px;
+}
+.chooser{
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: #dedfe0;
+}
+@media only screen and (max-width : 768px) {
+    .panel-heading .btn{
+        font-size: 15px;
+    }
+    .chooser{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width : 640px) {
+    .panel-heading .btn{
+        font-size: 13px;
+    }
+    .chooser{
+        font-size: 15px;
+    }
+    #map_label{
+        font-size: 13px;
+    }
+    .panel-heading i{
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width : 580px){
+    #page-wrapper{
+        width: 100%;
+    }
+    .dash_title{
+        display: none;
+    }
+    .row{
+        display: none;
+    }
+    #time_select{
+        margin:0 auto;
+    }
+    .chooser_date{
+        text-align: center;
+    }
+    #page-wrapper div.container-fluid{
+        padding: 0;
+    }
+}
+@media only screen and (max-width : 480px) {
+    .panel-heading .btn{
+        font-size: 11px;
+    }
+    #map_label{
+        font-size: 11px;
+    }
+    .panel-heading i{
+        display: none;
+    }
+}

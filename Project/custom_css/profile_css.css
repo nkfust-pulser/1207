@@ -1,0 +1,340 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Microsoft JhengHei, sans-serif;
+    background-color: #efefef;
+    margin: 0;
+    padding: 0;
+}
+label{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.topnav_css{
+    background-color: #ffffff;
+}
+.navbar-default label{
+    color: #000;
+}
+.navbar-brand{
+    position: relative;
+    margin: 0;
+    font-size: 22px;
+}
+.navbar-default .navbar-brand{
+    color: #000;
+}
+.navbar-default .navbar-brand:hover, 
+.navbar-default .navbar-brand:focus{
+    background-color: transparent;
+    color: #000;
+}
+.navbar-header a {
+    font-size: 30px;
+    display: flex;
+    align-items: center
+}
+.navbar-header label{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav li a span{
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    background-color: #848484;
+    color: #fff;
+}
+
+
+.navbar-nav li label{
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav{
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #000;
+}
+
+.navbar-nav li{
+    line-height: 50px;
+}
+
+.navbar-nav li a{
+    color: #000;
+}
+
+.navbar-default .navbar-nav > li > a > label:hover{
+    background-color: #848484;
+    
+}
+#myNavbar li a{
+    font-size: 15px;
+}
+#myNavbar ul li a i{
+    padding-right: 10px;
+}
+.content_padding{
+    height: 70px;
+}
+#page_wrapper{
+    width: 60%;
+    margin: 0 auto;
+}
+.panel-heading{
+    background: #30aed1;
+}
+.heading_title{
+    font-size: 23px;
+    color: #fff;
+}
+.panel-footer label{
+    font-size: 17.5px;
+}
+
+.submitButton{
+    color: #fff;
+    background-color: #002663;
+}
+button[type="submit"]:hover{
+    color: #fff;
+}
+@media only screen and (max-width: 992px){
+    #page_wrapper{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 768px){
+    #page_wrapper{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #page_wrapper{
+        width: 100%;
+    }
+    div.container{
+        padding: 0;
+        margin: 0;
+    }
+    .content_padding{
+        height: 50px;
+    }
+    .panel-heading{
+        display: none;
+    }
+    .topnav_css{
+        background-color: #ffffff;
+        box-shadow:0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    height: 100%;
+    background-color: ;
+    width: 250px;
+    padding-left: 18px;
+}
+.panel-red{
+    box-shadow:4px 4px 8px -2px #565656;
+}
+.panel_red_footer_account{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.panel_red_label{
+    padding-left: 3px;
+    font-size: 18px;
+}
+.profile_siderbar{
+    box-shadow:4px 4px 12px -2px #565656;
+    border-radius: 5px;
+}
+.profile_siderbar_title{
+    background-color: #2d6bce;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.sidebar-nav {
+    list-style: none;
+    font-family: Microsoft JhengHei;
+    background-color: #ffffff;
+    padding-left: 0px;
+    border-radius: 5px;
+}
+
+.sidebar-nav li {
+    line-height: 50px;
+    font-size:20px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #000;
+    background-color: #9a9ea5;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+.sidebar-nav li i{
+    margin-right: 10px;
+}
+
+.sidebar_footer{
+
+}
+.sidebar_footer span i{
+    font-size: 20px;
+}
+.sidebar_footer span label{
+    font-family: Arial Black, sans-serif;
+}
+@media(min-width:768px) {
+    #sidebar-wrapper {
+        width: 250px;
+    }
+}
+
+.panel > .panel-heading{
+    background-color: #038480;
+}
+.heading_padding{
+    padding-left: 20px;
+}
+.heading_title{
+    font-size: 30px;
+    color:#ffffff;
+    font-weight: bold;
+}
+.main_page_content label{
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #000;
+}
+.fragment {
+    font-size: 12px;
+    font-family: Microsoft JhengHei;
+    border: 1px solid #ccc;
+    background-color: #4a7ed3;
+    color: #fff;
+    display: block;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.fragment:hover {
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+
+}
+
+.fragment label {
+    color: #fff;
+}
+
+#close {
+    float:right;
+    display:inline-block;
+    padding:5px 5px;
+    margin-right: 5px;
+}
+
+#close:hover {
+    float:right;
+    display:inline-block;
+    padding:5px 5px;
+    color:#fff;
+}
+
+
+.select_date label{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+
+.panel-red > .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red > a {
+    color: #d9534f;
+}
+
+.panel-red > a:hover {
+    color: #b52b27;
+}
+input[type="text"] {
+  height:45px;
+  font-size:16px;
+  color: #000;
+}
+
+button[type="submit"]{
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #012b70;
+    color: #fff;
+}
+button[type="submit"]:hover{
+    font-size: 21px;
+    color: #fff;
+}
+#page_wrapper{
+    padding-left:270px;
+    box-shadow:4px 4px 8px -2px #565656;
+    background-color: #dee0e2;
+    }*/
+    @media only screen and (max-width : 768px) {
+        label.navbar-brand{
+            padding-left: 0px;
+        }
+    }
